@@ -1,0 +1,43 @@
+/*Cabeçalho*/
+
+header {
+    background: url(../images/header.png);
+    height: 100px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+header img {
+    width: 100%;
+    max-width: 80px;
+    position: absolute;
+}
+
+body {
+    margin: 0;
+}
+
+/*Fim do cabeçalho*/
+/*Menu de navegação*/
+
+.menu-dflex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;   
+}
+
+.menu a {
+    color: #fff;
+}
+
+/*Conteudo*/
+
+a {
+    text-decoration: none;
+}
+

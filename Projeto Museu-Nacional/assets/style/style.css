@@ -1,0 +1,166 @@
+/* Inicio do Header */
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 158px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+header .logo {
+    width: 100%;
+    max-width: 254px;
+    position: relative;
+}
+
+/* Menu */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: #8A4B08;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #DF7401;
+}
+
+nav a:active{
+    color: #DF7401;
+}
+
+/*nav .menu {}
+
+/*Fim do menu*/
+
+/* Fim do header */
+
+/* Estrutura do site */
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+.container {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/*Fim da estrutura*/
+
+/*Estrutura das imagens*/
+
+.img {
+    width: 100%;
+    top: 12%;
+    height: 205px;
+}
+
+.img-1 {
+    max-width: 710px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 9%;
+
+}
+
+.img-2 {
+    max-width: 350px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    right: 2%;
+    top: 9%;
+    left: 60%;
+}
+
+/*Fim da estrutura das imagens*/
+
+/* Conteudo */
+
+.conteudo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.conteudo a {
+    text-decoration: none;
+    color: #298A08;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.conteudo a:hover{
+    color: #088A4B;
+}
+
+.conteudo .video{
+    width: 345px;
+    padding-right: 18px;
+}
+
+.conteudo .mapa {
+    width: 345px;
+    padding-right: 24px;
+}
+
+.conteudo .visita {
+    width: 350px;
+    margin-left: 3px;
+    background-color: #CEB496;
+    font-weight: 600;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo .visita .box {
+    padding-left: 20px;
+    padding-top: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo h1 {
+    font-size: 18px;
+    color: #8A4B08;
+}
+
+.conteudo .visita .box .tamanho {
+    width: 15px;
+}
+
+.conteudo .visita .box .tamanho-data {
+    width: 90px;
+}
+
+.conteudo .visita .box label {
+    font-size: 13px;
+}
+
+.conteudo .visita .box .botao {
+    width: 300px;
+}
+
+fieldset { 
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+iframe {
+    padding-top: 15px;
+
+}
+/* Fim do conteudo */

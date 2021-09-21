@@ -1,0 +1,93 @@
+/*Configuração do conteudos*/
+
+body, html {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 18px;
+    color: #777;
+    height: 100%;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+.conteudo {
+    color: #777;
+    background-color: #fff;
+    text-align: justify;
+    padding: 50px 80px;
+ }
+
+
+ .conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+ }
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: gray;
+    padding: 18px;
+    font-family: 25px;
+    letter-spacing: 5px;
+    
+}
+
+/*Fim de configuração*/
+
+/* Menu */
+
+.menu {
+
+    display: flex;
+    justify-content: flex-end;
+    color: #000;
+    padding-right: 13px;
+}
+
+header {
+    position: fixed;
+    left: 80%;
+}
+
+a {
+    text-decoration: none;
+    background-color: gray;
+    color: #fff;
+    padding: 12px;
+}
+
+
+
+/*Fim do Menu*/
+
+/*Efeito parallax*/
+
+.imagem-1, .imagem-2, .imagem-3 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.imagem-1 {
+    background-image: url(../Parallax/assents/images/comida-japonesa.jpg);
+}
+
+.imagem-2 {
+    background-image: url(../Parallax/assents/images/comida-oriental.jpg);
+}
+
+.imagem-3 {
+    background-image: url(../Parallax/assents/images/faculdade-estudantes-certo.jpg);
+}
+
+/*Fim do efeito parallax*/
