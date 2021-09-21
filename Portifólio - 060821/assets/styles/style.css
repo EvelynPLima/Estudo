@@ -1,0 +1,164 @@
+/*Cabeçalho*/
+
+@font-face {
+    font-family: Baby-Angel;
+    src: url(../fonts/Baby-Angel.ttf);
+}
+
+.cabecalho {
+    height: 100%;
+}
+
+.cabecalho img {
+    width: 100%;
+    max-width: 354px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.cabecalho .conteudo {
+    font-family: Baby-Angel;
+    color: #F304D6;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/linhas-rosas-certa.png)
+}
+
+/*Fim do cabeçalho*/
+
+/* Menu */
+
+.menu{
+    width: 23% /180x;
+    margin: 0px;
+    padding-bottom: 10px;
+    background: transparent;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu .li {
+    font-family: Baby-Angel;
+    margin: 1px;
+    padding: 0px;
+}
+
+.menu img {
+    width: 100%;
+    max-width: 40px;
+    position: relative;
+    justify-self:right;
+    display: flex;
+    margin: 0px;
+}
+
+.menu li a {
+    width: 100%;
+    font-family: Baby-Angel;
+    text-decoration: none;
+}
+
+.menu ul a:link{
+    color: #F304D6;
+}
+
+.menu ul a:hover {
+    color: #AE0AE0;
+}
+
+.menu ul a:visited {
+    color: #F14288;
+}
+
+.menu li {
+    list-style: none;
+}
+
+/* Fim do Menu*/
+
+/* índice */
+
+
+
+
+/* Fim do indice */
+
+/* Contéudo */
+
+.container{
+    background-color: #fff;
+    width: 1300px;
+    padding: 5px;
+    margin: 0 110px 0px 110px;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+.home {
+    font-family: 'Times New Roman', Times, serif;
+    width: 140px;
+    font-size: 20px;
+    margin: 0 0 0 15px;
+}
+
+.home img {
+    width: 100%;
+    max-width: 34px;
+    position: absolute;
+    padding-left: 1px;
+    /*-webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;*/
+}
+
+/*.home .efeito img:hover {
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
+.home .img-1 {
+    padding-left: 10px;
+}
+
+.home .img-2 {
+    padding-left: 10px;
+}*/
+
+.home ul {
+    padding-inline-start: 0px;
+}
+
+.home li {
+    background-color: #ffd2e1;
+    color: #000;
+    border-radius: 10px;
+    list-style: none;
+    padding: 5px 0px 5px 38px;
+    margin: 10px 10px;
+}
+
+.home h2{
+    color: #F14288;
+    text-align: center;
+}
+
+/* Fim do contéudo */
+
+/* Seletores */
+
+.noticias p{
+    color: #000;
+}
+
+a {
+    color: #F14288;
+    text-decoration: none;
+}
+
+/*Fim do seletores*/

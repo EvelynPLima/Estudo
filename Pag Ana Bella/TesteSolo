@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Anna Bella Oficial</title>
+
+    <style type="text/css">
+
+        .capa{
+            background: pink url('Imagens/capa.png') no-repeat fixed top left
+        }
+
+        .fundo{
+            background: url('Imagens/fundo.png')
+        }
+
+        .fundo-conteudo{
+            background-color:honeydew;
+        }
+
+        .fundo-header{
+            background-color: #475348;
+        }
+
+        a{
+            color: gray;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            text-decoration: none;
+        }
+
+        h1{
+            color: #475348;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    
+    </style>
+
+</head>
+<body class="fundo">
+    
+    <table width="1000px">
+        <tr>
+            <td>
+                <img src="Imagens/capa.png" width="100%">
+            </td>
+        </tr>
+        
+        <tr class="fundo-header">
+            <td class="cabecalho">
+                <a href="index.html">Home |</a> 
+                <a href="biografia.html">Biografia |</a>
+                <a href="">Campanhas Publicitárias |</a>
+                <a href="contato.html">Contato</a>
+            </td>
+        </tr>
+
+        <tr class="fundo-conteudo">
+            <td>
+                <h1>Sobre Ana Bella</h1>
+                Consequat proin litora suspendisse aenean consectetur euismod fringilla lacinia, dui morbi litora enim metus iaculis vivamus hac, neque morbi interdum amet fringilla ornare aliquet. hendrerit risus habitasse congue maecenas eu ipsum mollis vivamus morbi non, eleifend primis proin semper placerat pharetra cursus tellus. fusce etiam mattis integer volutpat eget turpis ante scelerisque curabitur magna vestibulum accumsan porta urna, molestie praesent viverra quisque vitae volutpat purus feugiat sagittis fringilla dui augue. lorem taciti dui feugiat morbi ullamcorper euismod dictumst iaculis cras vulputate augue, cubilia curae dapibus morbi non tincidunt adipiscing porta nunc. 
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

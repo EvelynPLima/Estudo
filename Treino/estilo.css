@@ -1,0 +1,69 @@
+body {
+    background: #0B3B17;
+    font-size: 1em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h2 {
+    font-size: 55px;
+}
+
+#area-cabecalho {
+    background: white;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+}
+
+#area-menu {
+    text-align: center;
+    color: #0B3B17;
+    padding: 5px;
+    margin: 5px;
+}
+
+#area-principal{
+    text-align: center;
+    width:860px;
+    margin: 0 auto;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+    background: white;
+    font-size: 0.8em;
+    border-bottom: 1px dotted;
+}
+
+.postagem-lateral {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.postagens {
+    background: white;
+    color: black;
+    width: 860px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    color: #0B3B17;
+    padding: 10px 12px;
+}
