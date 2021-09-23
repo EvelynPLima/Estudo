@@ -109,26 +109,37 @@ body {
 
 .conteudo .video{
     width: 345px;
+    height: auto;
     padding-right: 18px;
+}
+
+.conteudo .expocicoes {
+    width: 345px;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 
 .conteudo .mapa {
     width: 345px;
+    height: auto;
     padding-right: 24px;
 }
 
 .conteudo .visita {
     width: 350px;
     margin-left: 3px;
-    background-color: #CEB496;
     font-weight: 600;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .conteudo .visita .box {
-    padding-left: 20px;
+    height: 150px;
+    padding-left: 25px;
     padding-top: 18px;
+    padding-right: 25px;
+    background-color: #CEB496;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -151,6 +162,18 @@ body {
 
 .conteudo .visita .box .botao {
     width: 300px;
+    
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 30px 10px 25px;
+    margin-top: 10px;
+    background-color: #E4DABB;
+    color: #000;
+    border-style: none;
+    width: 100%;
+    cursor: pointer;
 }
 
 fieldset { 
